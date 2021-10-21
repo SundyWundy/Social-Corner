@@ -1,0 +1,60 @@
+.feedbody {
+  text-align: left;
+  word-wrap: break-word;
+}
+
+@media (max-width: 1175px) {
+  .feedbody {
+    width: 145%;
+  }
+}
+
+@media (max-width: 1065px) {
+  .feedbody {
+    width: 205%;
+  }
+}
+
+.feed {
+  border: 1px;
+  border-style: solid;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top: 0px;
+  border-color: lightgray;
+}
+
+.userpicture {
+  position: relative;
+  top: 13px;
+  height: 45px;
+  width: 45px;
+  border-radius: 25px;
+  z-index: 0;
+}
+
+.feedinput {
+  height: 45px;
+  width: 82.5%;
+  margin-left: 10px;
+  padding-left: 10px;
+  font-size: larger;
+  border-style: none;
+  border-radius: 25px;
+  margin-bottom: 15px;
+}
+
+.feed img {
+  height: 100%;
+  width: 100%;
+}
+
+.feed h2 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.feed p {
+  padding-left: 10px;
+  padding-right: 10px;
+}

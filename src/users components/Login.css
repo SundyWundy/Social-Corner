@@ -1,0 +1,11 @@
+.loginform {
+  text-align: left;
+}
+
+.loginform input {
+  width: 95%;
+}
+
+.loginform div {
+  margin: 15px;
+}

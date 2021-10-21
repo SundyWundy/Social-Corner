@@ -1,0 +1,24 @@
+.itemlisting {
+  text-align: left;
+}
+
+.itemlisting h2 {
+  margin-top: 5px;
+  margin-bottom: -15px;
+}
+
+.itemlisting p {
+  font-size: larger;
+}
+
+.itemaddress {
+  color: gray;
+}
+
+.itemimage {
+  height: 100%;
+  width: 100%;
+}
+
+.iteminfo {
+}

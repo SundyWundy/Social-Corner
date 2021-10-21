@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.bodybox {
+  padding-top: 65px;
+}
+
+@media (max-width: 1175px) {
+  .contactsection {
+    position: absolute;
+    left: 70%;
+  }
+}
+
+@media (max-width: 1065px) {
+  .contactsection {
+    display: none;
+  }
+}
+
+@media (max-width: 1175px) {
+  .leftsection {
+    display: none;
+  }
+}

@@ -1,0 +1,94 @@
+.theBar {
+  position: fixed;
+  margin-top: 15.5px;
+  padding: 10px;
+  background-color: white;
+  z-index: 1;
+  width: 95%;
+  max-width: 1150px;
+  border: 0;
+  border-bottom: 1px;
+  border-top: 1px;
+  border-style: solid;
+  border-color: lightgray;
+}
+
+.titlesection {
+  text-align: left;
+  max-width: 380px;
+  min-width: 380px;
+}
+
+.title {
+  color: rgb(74, 74, 185);
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: larger;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.SearchBar {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 15px;
+  height: 30px;
+  width: 175px;
+  padding-left: 30px;
+}
+
+.searchicon {
+  position: relative;
+  top: 8px;
+  left: 30px;
+  color: gray;
+  z-index: 1;
+}
+
+@media (max-width: 720px) {
+  .iconsection {
+    display: none;
+  }
+}
+
+.iconsection {
+  position: absolute;
+  left: 350px;
+  text-align: left;
+  max-block-size: 50px;
+  max-width: 300px;
+  min-width: 300px;
+}
+
+.navicon {
+  margin-left: 25px;
+  margin-right: 25px;
+  color: grey;
+}
+
+@media (max-width: 480px) {
+  .profilepicture {
+    top: -16px;
+  }
+}
+
+@media (max-width: 950px) {
+  .profilepicture {
+    right: 0px;
+  }
+}
+
+.profilesection {
+  position: absolute;
+  left: 95%;
+  bottom: 67.5px;
+}
+
+.profilepicture {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  border-radius: 25px;
+  margin-top: 15px;
+}

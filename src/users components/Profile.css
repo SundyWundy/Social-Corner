@@ -1,0 +1,22 @@
+.imgProfile {
+  height: 150px;
+  width: 200px;
+}
+
+.Navbtn button {
+  margin: 10px;
+}
+
+.updateProfilebtn {
+  text-decoration: none;
+  color: black;
+}
+
+.userInfo {
+  text-align: left;
+  margin-left: 15%;
+}
+
+.userInfo div {
+  margin: 15px;
+}

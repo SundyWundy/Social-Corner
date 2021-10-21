@@ -1,0 +1,16 @@
+.imgUpdateProfile {
+  height: 150px;
+  width: 200px;
+}
+
+.form {
+  text-align: left;
+}
+
+.form input {
+  width: 95%;
+}
+
+.form div {
+  margin: 15px;
+}

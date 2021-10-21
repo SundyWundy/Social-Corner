@@ -1,0 +1,41 @@
+.sidebar {
+  position: fixed;
+  text-align: left;
+  margin-left: 10px;
+  width: 25%;
+  max-width: 270px;
+  overflow-y: scroll;
+  overflow: auto;
+  height: 90%;
+}
+
+.sideicon {
+  position: relative;
+  top: 18px;
+  left: 5px;
+  color: rgb(54, 54, 145);
+}
+
+.sidemenubox:hover {
+  background-color: rgb(230, 230, 255);
+  border-radius: 10px;
+}
+
+.linkbox {
+  text-decoration: none;
+  color: black;
+}
+
+.togglebutton {
+  background-color: white;
+  width: 250px;
+}
+
+.togglebutton:hover {
+  background-color: rgb(230, 230, 255);
+  border-radius: 10px;
+}
+
+.textSee {
+  width: 100px;
+}

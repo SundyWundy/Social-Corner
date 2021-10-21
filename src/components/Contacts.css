@@ -1,0 +1,37 @@
+.contactbody {
+  position: fixed;
+  text-align: left;
+  width: 300px;
+  height: 95%;
+  overflow-y: scroll;
+  overflow: auto;
+}
+
+.contactbody h2 {
+  color: lightgrey;
+}
+
+.contactlinkbox {
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+.contactbox:hover {
+  background-color: rgb(230, 230, 255);
+  border-radius: 10px;
+}
+
+.contactimage {
+  margin-left: 5px;
+  margin-top: 5px;
+  height: 45px;
+  width: 45px;
+  border-radius: 150px;
+}
+
+.contacttext {
+  position: relative;
+  right: 10px;
+  bottom: 5px;
+  color: black;
+}
